@@ -1,0 +1,36 @@
+.NFT-Modal {
+    .modal-image-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        img{
+            width: 50vw;
+        }
+    }
+
+    .closeBtn{
+        top: 1rem;
+        position: absolute;
+        right: 1rem;
+        font-size: 3rem;
+    }
+    .closeBtn:hover{
+        cursor: pointer;
+    }
+    .nextBtn {
+        font-size: 5rem;
+        right: 1rem;
+        position: absolute;
+        color: white;
+        cursor: pointer;
+    }
+    .prevBtn{
+        font-size: 5rem;
+        position: absolute;
+        left: 1rem;
+        color: white;
+        cursor: pointer;
+    }
+}

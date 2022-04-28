@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100&family=PT+Serif&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.montserrat {
+font-family: 'Montserrat', sans-serif;
+}
+.pt {
+
+    font-family: 'PT Serif', serif;
+}
+.container {
+    max-width: 1500px!important;
+}
+

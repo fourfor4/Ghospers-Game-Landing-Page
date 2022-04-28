@@ -1,0 +1,45 @@
+#bag {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 6.5rem;
+    height: 6.5rem;
+    background: #5aceff;
+    border-radius: 20rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    span{
+        width: 7rem;
+        font-size: 18px;
+        transition: all 0.4s ease-in-out 0s;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        display: block;
+    }
+    #discord{
+        display: none;
+        width: 4rem;
+        transition: all 0.4s ease-in-out 0s;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        font-size: 12px;
+        cursor: pointer;
+        color: white;
+    }
+  
+}
+
+#bag:hover {
+    span{
+        display: none;
+    }
+    #discord{
+        display: block;
+    }
+}
